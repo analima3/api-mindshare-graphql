@@ -9,7 +9,7 @@
     "esModuleInterop": true,
     "types": ["node"],
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "emitDecoratorMetadata": false
   },
   "include": ["src/**/*"]
 }
