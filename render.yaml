@@ -4,6 +4,7 @@ services:
     name: api-mindshare-graphql
     runtime: node
     repo: https://github.com/analima3/api-mindshare-graphql
+    branch: main
     plan: free
     envVars:
       - key: DATABASE_URL
