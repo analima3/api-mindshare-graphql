@@ -8,9 +8,9 @@ services:
     plan: free
     envVars:
       - key: DATABASE_URL
-        sync: false
+        value: file:./prisma/dev.db
       - key: JWT_SECRET
-        sync: false
+        generateValue: true
     region: ohio
     buildCommand: npm ci && npm run build
     startCommand: npm start
